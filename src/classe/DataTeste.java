@@ -14,8 +14,9 @@ public class DataTeste {
 		dt2.ano = 2021;
 		
 		
-		System.out.println(dt1.dia + "-" + dt1.mes + "-"+ dt1.ano);
-		System.out.println(dt2.dia + "-" + dt2.mes + "-"+ dt2.ano);
-		
+	     String df1 = dt1.obterDataFormatada("/");
+	     String df2 = dt2.obterDataFormatada("-"); 	     
+	     System.out.println(df1);
+	     System.out.println(df2);
 	}
 }
