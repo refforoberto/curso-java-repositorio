@@ -6,9 +6,21 @@ public class Data {
 	 int mes;
 	 int ano;
 	 
-	 public String obterDataFormatada( String separador) {
+	 Data() {
+		 dia = 01;
+		 mes = 01;
+		 ano = 1970;
+	 }
+	 
+	 Data (int diaAtual, int mesAtual, int anoAtual) {
+		 dia = diaAtual;
+		 mes = mesAtual;
+		 ano = anoAtual;	 
+	 }
+	 
+	 public String obterDataFormatada() {
 		 
-		 return dia + separador + mes + separador + ano;
+		 return  String.format("%d/%d/%d", dia, mes, ano);
 		
 	}
 
