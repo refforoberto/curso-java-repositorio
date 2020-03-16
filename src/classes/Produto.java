@@ -7,7 +7,7 @@ public class Produto {
 	
 	static double desconto = 0.25;
 	
-	
+	 
 	Produto( String nome, double valor) {
 		this.nome = nome;
 		this.valor = valor;
