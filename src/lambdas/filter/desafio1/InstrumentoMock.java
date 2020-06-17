@@ -1,4 +1,4 @@
-package lambdas.filter.desafio;
+package lambdas.filter.desafio1;
 
 import java.util.Arrays;
 import java.util.List;
