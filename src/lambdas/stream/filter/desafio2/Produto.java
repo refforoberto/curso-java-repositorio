@@ -1,4 +1,4 @@
-package lambdas.filter.desafio2;
+package lambdas.stream.filter.desafio2;
 
 public class Produto {
 	String nome;
