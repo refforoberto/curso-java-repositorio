@@ -1,4 +1,4 @@
-package exceptions.custom.notChecked;
+package exceptions.custom.doNotChecked;
 
 @SuppressWarnings("serial")
 public class NumberOutOfRangeException extends RuntimeException {

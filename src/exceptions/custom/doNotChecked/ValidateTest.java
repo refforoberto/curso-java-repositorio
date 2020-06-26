@@ -1,4 +1,4 @@
-package exceptions.custom.notChecked;
+package exceptions.custom.doNotChecked;
 
 import lambdas.Aluno;
 
